@@ -1,0 +1,11 @@
+F:\Inventor_projects\MyCustomNodee\bin\Debug\net8.0\MyCustomNodee.deps.json
+F:\Inventor_projects\MyCustomNodee\bin\Debug\net8.0\MyCustomNodee.dll
+F:\Inventor_projects\MyCustomNodee\bin\Debug\net8.0\MyCustomNodee.pdb
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\MyCustomNodee.GeneratedMSBuildEditorConfig.editorconfig
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\MyCustomNodee.AssemblyInfoInputs.cache
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\MyCustomNodee.AssemblyInfo.cs
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\MyCustomNodee.csproj.CoreCompileInputs.cache
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\MyCustomNodee.dll
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\refint\MyCustomNodee.dll
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\MyCustomNodee.pdb
+F:\Inventor_projects\MyCustomNodee\obj\Debug\net8.0\ref\MyCustomNodee.dll

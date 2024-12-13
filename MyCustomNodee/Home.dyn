@@ -1,0 +1,263 @@
+{
+  "Uuid": "c6c92ced-078e-4a75-9b5c-81a027dd1c25",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Home",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "Id": "1ba8bb1c233e47c090e3384e6ad9ce99",
+      "NodeType": "FunctionNode",
+      "Inputs": [
+        {
+          "Id": "c869848e5d554e2ba08fb3857d1ec42b",
+          "Name": "xCount",
+          "Description": "int",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f44adbb9f56d44b2927273d67deb99cb",
+          "Name": "yCount",
+          "Description": "int",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "3e5ece6c29d445dcbfc126c0c857e96d",
+          "Name": "Rectangle[]",
+          "Description": "Rectangle[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "FunctionSignature": "MycustomNode3.Grids.RectangularGrid@int,int",
+      "Replication": "Auto",
+      "Description": "Grids.RectangularGrid (xCount: int, yCount: int): Rectangle[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.IntegerSlider, CoreNodeModels",
+      "NumberType": "Integer",
+      "MaximumValue": 100,
+      "MinimumValue": 0,
+      "StepValue": 1,
+      "Id": "933c046364c3424880fa3a67c224b46e",
+      "NodeType": "NumberInputNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "1af4c0fae990426db602fa0846953ff7",
+          "Name": "",
+          "Description": "Int64",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Produces integer values",
+      "InputValue": 19
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.IntegerSlider, CoreNodeModels",
+      "NumberType": "Integer",
+      "MaximumValue": 100,
+      "MinimumValue": 0,
+      "StepValue": 1,
+      "Id": "3554f9e6a2484cd59be6e670b643653c",
+      "NodeType": "NumberInputNode",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "aaaf24e1270749a1a139bbe478d8d01d",
+          "Name": "",
+          "Description": "Int64",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Produces integer values",
+      "InputValue": 18
+    },
+    {
+      "ConcreteType": "Watch3DNodeModels.Watch3D, Watch3DNodeModels",
+      "WatchWidth": 200.0,
+      "WatchHeight": 200.0,
+      "WasExecuted": true,
+      "Camera": {
+        "Name": "5f8383ec-f6ef-45c4-8a9f-311af7410844 Preview",
+        "EyeX": -17.0,
+        "EyeY": 24.0,
+        "EyeZ": 50.0,
+        "LookX": 12.0,
+        "LookY": -13.0,
+        "LookZ": -58.0,
+        "UpX": 0.0,
+        "UpY": 1.0,
+        "UpZ": 0.0
+      },
+      "VariableInputPorts": true,
+      "Id": "5f8383ecf6ef45c48a9f311af7410844",
+      "NodeType": "ExtensionNode",
+      "Inputs": [
+        {
+          "Id": "67c4c98d183944cd91487723d581782a",
+          "Name": "",
+          "Description": "Incoming geometry objects.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "f77d396fb6a848d8b772ad3fe3f89dc4",
+          "Name": "",
+          "Description": "Incoming geometry objects.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Shows a dynamic preview of geometry"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "3e5ece6c29d445dcbfc126c0c857e96d",
+      "End": "67c4c98d183944cd91487723d581782a",
+      "Id": "d2ca0d6bdbd94ff684ba6ca2e169cecf",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "1af4c0fae990426db602fa0846953ff7",
+      "End": "c869848e5d554e2ba08fb3857d1ec42b",
+      "Id": "f54c42fdc73b4baa85028de72d91d658",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "aaaf24e1270749a1a139bbe478d8d01d",
+      "End": "f44adbb9f56d44b2927273d67deb99cb",
+      "Id": "ad0d937a648d437fa542323a7200b2f2",
+      "IsHidden": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [
+    {
+      "Name": "MycustomNode3.dll",
+      "ReferenceType": "ZeroTouch",
+      "Nodes": [
+        "1ba8bb1c233e47c090e3384e6ad9ce99"
+      ]
+    }
+  ],
+  "EnableLegacyPolyCurveBehavior": null,
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "3.0",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "3.0.0.7186",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "_Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Id": "1ba8bb1c233e47c090e3384e6ad9ce99",
+        "Name": "Grids.RectangularGrid",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1086.2558026052693,
+        "Y": 232.70056506659688
+      },
+      {
+        "Id": "933c046364c3424880fa3a67c224b46e",
+        "Name": "Integer Slider",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 619.3978815481466,
+        "Y": 192.936641191069
+      },
+      {
+        "Id": "3554f9e6a2484cd59be6e670b643653c",
+        "Name": "Integer Slider",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 586.997647279198,
+        "Y": 354.93781253581193
+      },
+      {
+        "Id": "5f8383ecf6ef45c48a9f311af7410844",
+        "Name": "Watch 3D",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "ShowGeometry": true,
+        "X": 1438.2401657997564,
+        "Y": 223.86413753870164
+      }
+    ],
+    "Annotations": [],
+    "X": -168.34456209557595,
+    "Y": 279.9356041409393,
+    "Zoom": 0.7169829515582269
+  }
+}
