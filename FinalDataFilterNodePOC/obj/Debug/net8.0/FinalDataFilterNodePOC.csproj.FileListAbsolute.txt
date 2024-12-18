@@ -1,0 +1,11 @@
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\bin\Debug\net8.0\FinalDataFilterNodePOC.deps.json
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\bin\Debug\net8.0\FinalDataFilterNodePOC.dll
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\bin\Debug\net8.0\FinalDataFilterNodePOC.pdb
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\FinalDataFilterNodePOC.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\FinalDataFilterNodePOC.AssemblyInfoInputs.cache
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\FinalDataFilterNodePOC.AssemblyInfo.cs
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\FinalDataFilterNodePOC.csproj.CoreCompileInputs.cache
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\FinalDataFilterNodePOC.dll
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\refint\FinalDataFilterNodePOC.dll
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\FinalDataFilterNodePOC.pdb
+F:\Dynamo_PRojects\FinalDataFilterNodePOC\obj\Debug\net8.0\ref\FinalDataFilterNodePOC.dll
