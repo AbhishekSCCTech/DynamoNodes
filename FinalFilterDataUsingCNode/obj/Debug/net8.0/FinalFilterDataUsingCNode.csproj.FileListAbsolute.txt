@@ -1,0 +1,11 @@
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\bin\Debug\net8.0\FinalFilterDataUsingCNode.deps.json
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\bin\Debug\net8.0\FinalFilterDataUsingCNode.dll
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\bin\Debug\net8.0\FinalFilterDataUsingCNode.pdb
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\FinalFilterDataUsingCNode.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\FinalFilterDataUsingCNode.AssemblyInfoInputs.cache
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\FinalFilterDataUsingCNode.AssemblyInfo.cs
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\FinalFilterDataUsingCNode.csproj.CoreCompileInputs.cache
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\FinalFilterDataUsingCNode.dll
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\refint\FinalFilterDataUsingCNode.dll
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\FinalFilterDataUsingCNode.pdb
+F:\Dynamo_PRojects\FinalFilterDataUsingCNode\obj\Debug\net8.0\ref\FinalFilterDataUsingCNode.dll
