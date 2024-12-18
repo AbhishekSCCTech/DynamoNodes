@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ParametricStairGenerator/1.0.0": {
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.14.0.4641",
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.14.0.4641"
+        },
+        "runtime": {
+          "ParametricStairGenerator.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.14.0.4641": {
+        "runtime": {
+          "lib/netstandard2.0/DynamoServices.dll": {
+            "assemblyVersion": "2.14.0.4641",
+            "fileVersion": "2.14.0.4641"
+          }
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.14.0.4641": {
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.14.0.4641"
+        },
+        "runtime": {
+          "lib/net48/DynamoUnits.dll": {
+            "assemblyVersion": "2.14.0.4641",
+            "fileVersion": "2.14.0.4641"
+          },
+          "lib/net48/ProtoGeometry.dll": {
+            "assemblyVersion": "2.13.0.7686",
+            "fileVersion": "2.13.0.7686"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ParametricStairGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamoVisualProgramming.DynamoServices/2.14.0.4641": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wno6BHSkATX4sZfReFrzhk7ZbGOCrJBno+U3/08eu2NiYvOaFOerbhKXM6UMkq8+/cCBh3U8vnAh3iJ0ALueSw==",
+      "path": "dynamovisualprogramming.dynamoservices/2.14.0.4641",
+      "hashPath": "dynamovisualprogramming.dynamoservices.2.14.0.4641.nupkg.sha512"
+    },
+    "DynamoVisualProgramming.ZeroTouchLibrary/2.14.0.4641": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FQpEvJFxsxrnZpdz6/dJAOjLNKN3rx7f9pa8GzdRhhWiLcKQeWf0tt3s4sC2J+7rd39Fc/KVrity1fQMKkJlGw==",
+      "path": "dynamovisualprogramming.zerotouchlibrary/2.14.0.4641",
+      "hashPath": "dynamovisualprogramming.zerotouchlibrary.2.14.0.4641.nupkg.sha512"
+    }
+  }
+}

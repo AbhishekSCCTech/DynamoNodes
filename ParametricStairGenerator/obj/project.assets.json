@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DynamoVisualProgramming.DynamoServices/2.14.0.4641": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamoServices.dll": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.14.0.4641": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.14.0.4641"
+        },
+        "compile": {
+          "lib/net48/DynamoUnits.dll": {},
+          "lib/net48/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DynamoUnits.dll": {},
+          "lib/net48/ProtoGeometry.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamoVisualProgramming.DynamoServices/2.14.0.4641": {
+      "sha512": "Wno6BHSkATX4sZfReFrzhk7ZbGOCrJBno+U3/08eu2NiYvOaFOerbhKXM6UMkq8+/cCBh3U8vnAh3iJ0ALueSw==",
+      "type": "package",
+      "path": "dynamovisualprogramming.dynamoservices/2.14.0.4641",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/DynamoServices.XML",
+        "content/images/logo.png",
+        "dynamovisualprogramming.dynamoservices.2.14.0.4641.nupkg.sha512",
+        "dynamovisualprogramming.dynamoservices.nuspec",
+        "lib/netstandard2.0/DynamoServices.dll"
+      ]
+    },
+    "DynamoVisualProgramming.ZeroTouchLibrary/2.14.0.4641": {
+      "sha512": "FQpEvJFxsxrnZpdz6/dJAOjLNKN3rx7f9pa8GzdRhhWiLcKQeWf0tt3s4sC2J+7rd39Fc/KVrity1fQMKkJlGw==",
+      "type": "package",
+      "path": "dynamovisualprogramming.zerotouchlibrary/2.14.0.4641",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/ProtoGeometry.XML",
+        "content/images/logo.png",
+        "dynamovisualprogramming.zerotouchlibrary.2.14.0.4641.nupkg.sha512",
+        "dynamovisualprogramming.zerotouchlibrary.nuspec",
+        "lib/net48/DynamoUnits.dll",
+        "lib/net48/ProtoGeometry.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DynamoVisualProgramming.DynamoServices >= 2.14.0.4641",
+      "DynamoVisualProgramming.ZeroTouchLibrary >= 2.14.0.4641"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Abhishek Suryawanshi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Dynamo_PRojects\\ParametricStairGenerator\\ParametricStairGenerator.csproj",
+      "projectName": "ParametricStairGenerator",
+      "projectPath": "F:\\Dynamo_PRojects\\ParametricStairGenerator\\ParametricStairGenerator.csproj",
+      "packagesPath": "C:\\Users\\Abhishek Suryawanshi\\.nuget\\packages\\",
+      "outputPath": "F:\\Dynamo_PRojects\\ParametricStairGenerator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Abhishek Suryawanshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": {
+            "target": "Package",
+            "version": "[2.14.0.4641, )"
+          },
+          "DynamoVisualProgramming.ZeroTouchLibrary": {
+            "target": "Package",
+            "version": "[2.14.0.4641, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DynamoVisualProgramming.ZeroTouchLibrary 2.14.0.4641' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DynamoVisualProgramming.ZeroTouchLibrary",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

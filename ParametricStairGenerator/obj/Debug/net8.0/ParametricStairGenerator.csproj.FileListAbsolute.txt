@@ -1,0 +1,12 @@
+F:\Dynamo_PRojects\ParametricStairGenerator\bin\Debug\net8.0\ParametricStairGenerator.deps.json
+F:\Dynamo_PRojects\ParametricStairGenerator\bin\Debug\net8.0\ParametricStairGenerator.dll
+F:\Dynamo_PRojects\ParametricStairGenerator\bin\Debug\net8.0\ParametricStairGenerator.pdb
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.csproj.AssemblyReference.cache
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.AssemblyInfoInputs.cache
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.AssemblyInfo.cs
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.csproj.CoreCompileInputs.cache
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.dll
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\refint\ParametricStairGenerator.dll
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ParametricStairGenerator.pdb
+F:\Dynamo_PRojects\ParametricStairGenerator\obj\Debug\net8.0\ref\ParametricStairGenerator.dll
